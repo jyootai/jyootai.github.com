@@ -1,0 +1,12 @@
+# Site settings
+title: JYooTai
+email: jyootg@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  A little more patience , a little more thought, you would do better.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.jyootai.com" # the base hostname & protocol for your site
+twitter_username: jyootai
+github_username:  jyootai
+
+# Build settings
+markdown: kramdown
