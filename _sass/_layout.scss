@@ -2,7 +2,9 @@
  * Site header
  */
 .site-header {
-   background-color:#2f2f2f;
+  // background-color:#2f2f2f;
+
+    background-color:#1ABC9C;
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
@@ -102,7 +104,9 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0 10px 0;
-    background-color:#22272a;
+  //  background-color:#22272a;
+
+    background-color:#34495E;
     line-height:1.5;
 }
 
