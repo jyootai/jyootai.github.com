@@ -16,13 +16,13 @@
 .site-title {
     font-size: 24px;
     line-height: 56px;
+    padding-left:15%;
     letter-spacing: -1px;
     margin-bottom: 0;
     color:#fff !important;
     &:hover{
       text-decoration:none;
     }
-    float: left;
 }
 
 .site-nav {
@@ -30,6 +30,7 @@
     line-height: 56px;
     font-size:15px;
     letter-spacing: -.5px;
+    margin-right:4%;
 
     .menu-icon {
         display: none;
@@ -40,10 +41,11 @@
 
     .page-link {
         line-height: $base-line-height;
+        margin-right:50px;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            margin-left: -35px;
 
         }
     }
@@ -262,4 +264,59 @@
             font-size: 18px;
         }
     }
+}
+.social-share-element{
+   width: 40px;
+   height: 40px;
+   background-color:#666;
+   background-image:url('/images/social.png' );
+   display: inline-block;
+   margin-right: 2px;
+   border-bottom: none;
+   border-radius: 20px;
+   &:hover {
+    background-color: rgba(231, 67, 67, 0.71);
+    border-radius: 5px;
+  }
+  &.social-twitter {
+    background-position: 0 0;
+  }
+  
+  &.social-facebook {
+    background-position: -40px 0;
+  }
+  &.social-google {
+    background-position: -80px 0;
+  }
+  
+  &.social-linkedin {
+    background-position: -120px 0;
+  }
+  
+  &.social-weibo {
+    background-position: -160px 0;
+  }
+  
+  &.social-digg {
+    background-position: 0 40px;
+  }
+  
+  &.social-douban {
+    background-position: -40px 40px;
+  }
+  
+  &.social-reddit {
+    background-position: -80px 40px;
+  }
+  
+  &.social-stumble {
+    background-position: -120px 40px;
+  }
+  
+  &.social-github {
+    background-position: -160px 40px;
+  }
+}
+.social-share-element {
+  margin-bottom:-14px;
 }
