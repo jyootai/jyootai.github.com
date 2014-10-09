@@ -45,7 +45,7 @@ pathogen是vim的一个插件管理工具，vim的插件都是装在~/.vim目录
 #### 1.安装vundle到`~/.vim/bundle`
 
         mkdir -p ~/.vim/bundle; pushd ~/.vim/bundle; \
-        git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle  
+        git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/vundle  
         popd
 
 
