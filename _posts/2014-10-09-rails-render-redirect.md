@@ -2,6 +2,7 @@
 layout: post
 title: Rails 中的渲染与重定向
 date: 2014-10-03 
+author: jyootai
 disqus: y
 share: y
 ---

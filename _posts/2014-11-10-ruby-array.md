@@ -2,6 +2,7 @@
 layout: post
 title: Ruby 对数组的基本操作
 date: 2014-11-10
+author: jyootai
 disqus: y
 share: y
 ---

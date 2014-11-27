@@ -2,6 +2,7 @@
 layout: post
 title: slim在vim下语法高亮显示
 date: 2014-03-13 19:12:23 
+author: jyootai
 disqus: y
 share: y
 ---

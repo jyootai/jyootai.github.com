@@ -4,8 +4,8 @@
 .site-header {
   // background-color:#2f2f2f;
 
-    background-color:#1ABC9C;
-    border-top: 5px solid $grey-color-dark;
+    background-color:#fff;
+    /*border-top: 5px solid $grey-color-dark;*/
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -19,7 +19,7 @@
     padding-left:15%;
     letter-spacing: -1px;
     margin-bottom: 0;
-    color:#fff !important;
+    color:#333;
     &:hover{
       text-decoration:none;
     }
@@ -36,7 +36,6 @@
         display: none;
     }
     a{
-      color: #fff;
     }
 
     .page-link {
@@ -108,7 +107,8 @@
     padding: $spacing-unit 0 10px 0;
   //  background-color:#22272a;
 
-    background-color:#34495E;
+    /*background-color:#34495E;*/
+    background-color:#fff;
     line-height:1.5;
 }
 
@@ -185,6 +185,12 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+		.home{
+			a{
+				width:73%;
+				display: inline-block;
+			}
+		}
 }
 
 .page-heading {
@@ -205,7 +211,7 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
+	  font-size:20px;
     color: $grey-color;
 }
 
@@ -268,14 +274,13 @@
 .social-share-element{
    width: 40px;
    height: 40px;
-   background-color:#4E927D;
+   background-color:rgba(51, 51, 51, 0.79);
    background-image:url('/images/social.png' );
    display: inline-block;
    margin-right: 2px;
    border-bottom: none;
    border-radius: 20px;
    &:hover {
-    background-color: rgba(231, 67, 67, 0.71);
     border-radius: 5px;
   }
   &.social-twitter {

@@ -2,6 +2,7 @@
 layout: post
 title: 第一次去腾讯霸笔感触
 date: 2014-04-12 21:48
+author: jyootai
 disqus: y
 share: y
 ---
