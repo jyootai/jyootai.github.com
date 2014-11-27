@@ -208,6 +208,12 @@
     > li {
         margin-bottom: $spacing-unit;
     }
+		.display-year{
+			float:left;
+			margin-left: -100px;
+			font-weight: 700;
+			color:#858181;
+		}
 }
 
 .post-meta {
