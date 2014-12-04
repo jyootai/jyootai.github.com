@@ -5,6 +5,7 @@ date: 2014-03-10 21:00:21
 author: jyootai
 disqus: y
 share: y
+categories: blog
 ---
 
 现在‘……去哪儿’闹的很火，就比如现在的时间去哪儿了，说起这个话题，我也想问：我的时间究竟去哪儿了呢？

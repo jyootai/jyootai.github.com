@@ -5,6 +5,7 @@ date: 2014-03-13 19:12:23
 author: jyootai
 disqus: y
 share: y
+categories: blog
 ---
 
 ### vim-slim

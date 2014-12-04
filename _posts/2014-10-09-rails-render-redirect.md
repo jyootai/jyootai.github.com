@@ -5,6 +5,7 @@ date: 2014-10-03
 author: jyootai
 disqus: y
 share: y
+categories: blog
 ---
 
 Rails 应用程序的生命周期是按照每个请求独立的。当一个请求到来时，Rails 便开始处理，处理完了也就完了，再来一个请求时，又再开始处理。

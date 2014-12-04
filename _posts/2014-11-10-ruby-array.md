@@ -5,6 +5,7 @@ date: 2014-11-10
 author: jyootai
 disqus: y
 share: y
+categories: blog
 ---
 
 数组是 Ruby 中基本的数据类型，对其操作也很普遍，有时为了达到某个操作效果，需要查一查文档，于是索性将其最基本的操作方法总结下来，以后按需所取。
