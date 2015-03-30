@@ -8,13 +8,13 @@ share: y
 categories: blog
 ---
 
-本文向你展示10个Ruby技巧（或许你都知道），但不管怎样，这些都是值得分享的东西，并且只需要需一点时间就能浏览完。
+本文向你展示10个Ruby技巧（或许这些你都知道），但不管怎样，这些都是值得分享的东西，并且只需要一点时间就能浏览完。
 
 ---
 
-#### **1.用一个列表的值构造Hash**
+#### **1.构造Hash**
 
-你可以用一个列表一系列的值构造Hash 通过`Hash[...]`方法，它将会创建一个Hash像下面的方式：
+你可以用一个列表一系列的值构造Hash 通过`Hash[...]`方法，它将会像下面的方式创建一个Hash：
 
 {% highlight ruby %}
 Hash['key1', 'value1', 'key2', 'value2']
@@ -23,21 +23,21 @@ Hash['key1', 'value1', 'key2', 'value2']
 
 #### **2.Lambda字面量`->`**
 
-定义一个lambda可以使用在Rails中也用的比较流行的`->`字面量，它可以很容易的定义一个lambda对象
+定义一个lambda可以使用在Rails中用的比较流行的`->`字面量，它可以很容易的定义一个lambda对象：
 
 {% highlight ruby %}
 a = -> {1 + 1}
 a.call
 # => 2
 
-a = ->(arg) {arg + 1}
-a.call(2)
+a = ->(arg) {arg + 1} #含参
+a.call(2) #传递参数
 # => 3
 {% endhighlight %}
 
 #### **3.双星** **
 
-双星在Ruby中是一个小魔法，来看看下面的方法：
+双星在Ruby中算是一个小魔法，来看看下面的方法：
 
 {% highlight ruby %}
 def my_method(a, *b, **c)
@@ -82,28 +82,28 @@ stuff_arr = [1, 2, 3]
 在下面的例子，通过任何被给定的对象用`[*...]`去循环：
 
 {% highlight ruby %}
-[*stuff].each { |s| s }
-[*stuff_arr].each { |s| s }
+[*stuff].each { |s| s }  # => [1]
+[*stuff_arr].each { |s| s }  # => [1, 2, 3]
 {% endhighlight %}
 
 和上面效果一样，这次用`Array(...)`：
 
 {% highlight ruby %}
-Array(stuff).each { |s| s }
-Array(stuff_arr).each { |s| s }
+Array(stuff).each { |s| s }  # => [1]
+Array(stuff_arr).each { |s| s }  # => [1, 2, 3]
 {% endhighlight %}
 
 #### **5.`||=` 操作符号**
 
-`||=`是一个很好的操作符去写出简洁的代码
+利用`||=`操作符能写出很简洁的代码
 
-它实际上和下面的表示方式相同
+它实际上和下面的表示方式相同：
 
 {% highlight ruby %}
 a || a = b # 正确
 {% endhighlight %}
 
-大多数人都认为它和下面的表示方式一样，但实际不是
+大多数人都认为它和下面的表示方式一样，但实际不是：
 
 {% highlight ruby %}
 a = a || b # 错误
@@ -246,12 +246,12 @@ here文档有一个缺点就是它会影响代码流畅和缩进问题，由于`
 
 {% highlight ruby %}
 def my_method
-  <<-EOT
+  <<-HERE
 Ruby
 stricks
 Interesting
 Right
-  EOT
+  HERE
 end
 {% endhighlight %}
 
@@ -259,12 +259,12 @@ end
 
 {% highlight ruby %}
 def my_method
-  <<-EOT.gsub(/^\s+/, '')
+  <<-HERE.gsub(/^\s+/, '')
     Ruby
     stricks
     Interesting
     Right
-  EOT
+  HERE
 end
 {% endhighlight %}
 
