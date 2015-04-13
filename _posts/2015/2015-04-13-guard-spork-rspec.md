@@ -18,7 +18,7 @@ Spork 通过它内部加载文件的机制来提升测试的时间。
 
 ### **1.添加 Rspec**
 
-添加 Rspec 到项目中，只需要在 Gemfile 中加入对应的gem：
+添加 Rspec 到项目中，只需要在 Gemfile 中加入对应的 gem：
 
 {% highlight ruby%}
 group :development, :test do
@@ -32,7 +32,7 @@ end
 rails generate rspec:install
 {% endhighlight %}
 
-这是会生成如下相关文件：
+这时会生成如下相关文件：
 
 {% highlight ruby %}
 create  .rspec
