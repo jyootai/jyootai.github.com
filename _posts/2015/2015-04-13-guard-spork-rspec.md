@@ -70,7 +70,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec' 
   gem 'guard-spork' #这里
-  gem 'spork'       #这里     
+  gem 'spork', github: 'sporkrb/spork' #这里     
   gem 'spork-rails' #这里
 end
 {% endhighlight %}
