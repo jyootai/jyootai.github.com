@@ -50,7 +50,7 @@ $ CGO_ENABLED=0 GOOS=linux GOARCH=386 go build test.go
 $ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build test.go
 {% endhighlight%}
 
-上面命令中的 CGO_ENABLED = 0 表示设置CGO工具不可用；GOOS 表示程序构建环境的目标操作系统；GOARCH 表示程序构建环境的目标计算架构。 现在你可以在相关目标操作系统上运行编译后的程序了。
+上面命令中的 CGO_ENABLED = 0 表示设置CGO工具不可用；GOOS 表示程序构建环境的目标操作系统(Linux、Windows)；GOARCH 表示程序构建环境的目标计算架构(32位、64位)。 现在你可以在相关目标操作系统上运行编译后的程序了。
 
 **注意**：
 
