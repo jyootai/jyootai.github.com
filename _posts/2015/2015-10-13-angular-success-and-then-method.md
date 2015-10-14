@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AngularJS 中 $http.success() 与 $http.success() 方法
+title: AngularJS中$http.success()与$http.success() 方法
 date: 2015-10-13
 author: jyootai
 disqus: y
@@ -40,7 +40,7 @@ promise.success = function(fn) {
 };
 {% endhighlight%}
 
-从上面可以看出`success()`方法其实就是和`then()`方法差不多，只是在方法内部调用了`then()`方法，并且解构了 then 方法传递给回调方法的参数，也就是说使用`success()`方法得到的 response 比`then()`精简，少一些数据，这是一个语法糖。
+从上面可以看出`success()`方法其实就是和`then()`方法差不多，只是在方法内部调用了`then()`方法，并且解构了 then 方法传递给回调方法的参数，也就是说使用`success()`方法得到的 response 比`then()`精简，少一些数据，这算是Angular中的一个语法糖。
 
 注意，还有一个重要的区别，就是使用`success()`方法无法使外部获取到最后回调函数中返回的数据：
 
