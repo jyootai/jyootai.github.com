@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AngularJS中$http.success()与$http.success()方法
+title: AngularJS中$http.success()与$http.then()方法
 date: 2015-10-13
 author: jyootai
 disqus: y
